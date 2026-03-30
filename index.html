@@ -227,14 +227,19 @@
                  Delete the .video-placeholder div below once you add the iframe.
                  --------------------------------------------------------------- -->
             <div class="video-wrapper">
-              <iframe
-                class="video-embed"
-                src="https://drive.google.com/file/d/1PLK1YbOjnvDHC-gTe0oRnEFPUzX8rCrs/preview"
-                title="CS 499 Code Review – Kester Nkese"
-                frameborder="0"
-                allow="autoplay"
-                allowfullscreen
-              ></iframe>
+              <a
+                href="https://drive.google.com/file/d/1PLK1YbOjnvDHC-gTe0oRnEFPUzX8rCrs/view"
+                target="_blank"
+                rel="noopener"
+                class="video-link-card"
+                aria-label="Watch Code Review Video on Google Drive"
+              >
+                <div class="video-play-btn" aria-hidden="true">&#9654;</div>
+                <div class="video-link-text">
+                  <p class="video-link-title">CS 499 Code Review – Kester Nkese</p>
+                  <p class="video-link-sub">Click to watch on Google Drive &rarr;</p>
+                </div>
+              </a>
             </div>
 
           </div><!-- /.code-review-body -->
