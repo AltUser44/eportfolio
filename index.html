@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kester Nkese – CS 499 Computer Science Capstone ePortfolio"
+    />
+    <title>Kester Nkese | CS ePortfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts – loaded from CDN, no framework dependency -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =====================================================================
+         NAVIGATION BAR (sticky)
+         ===================================================================== -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a class="nav-brand" href="#hero">KN</a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks" role="list">
+          <li><a href="#assessment" class="nav-link">Self-Assessment</a></li>
+          <li><a href="#code-review" class="nav-link">Code Review</a></li>
+          <li><a href="#artifacts" class="nav-link">Artifacts</a></li>
+          <li><a href="#outcomes" class="nav-link">Outcomes</a></li>
+          <li><a href="#links" class="nav-link">Links</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- =====================================================================
+         SECTION 1 – HERO / HEADER
+         ===================================================================== -->
+    <header class="hero" id="hero">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="hero-tag">CS 499 &mdash; Computer Science Capstone</p>
+        <h1 class="hero-name">Kester Nkese</h1>
+        <p class="hero-subtitle">
+          Computer Science ePortfolio&nbsp;&middot;&nbsp;Full-Stack Developer&nbsp;&middot;&nbsp;Data Science Focus
+        </p>
+        <!-- PLACEHOLDER: Replace the paragraph below with your own intro statement. -->
+        <p class="hero-intro">
+          Welcome to my computer science capstone ePortfolio. This site documents
+          my growth throughout the SNHU Computer Science program, showcases the
+          skills I have developed across software engineering, algorithms,
+          databases, and security, and presents the work I completed during
+          CS&nbsp;499. My capstone project, <strong>BankerAI</strong>, serves as
+          the central artifact demonstrating those competencies.
+        </p>
+        <div class="hero-cta">
+          <a href="#assessment" class="btn btn-primary">View Portfolio</a>
+          <a href="#links" class="btn btn-outline">Contact &amp; Links</a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span class="scroll-dot"></span>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==================================================================
+           SECTION 2 – PROFESSIONAL SELF-ASSESSMENT
+           This section is intentionally first in the main content area per
+           the CS 499 assignment requirements.
+           ================================================================== -->
+      <section class="section" id="assessment">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">01</span>
+            <h2 class="section-title">Professional Self-Assessment</h2>
+            <p class="section-subtitle">
+              Reflecting on my journey through the SNHU Computer Science program
+              and the skills I bring to the field.
+            </p>
+          </div>
+
+          <div class="assessment-body">
+
+            <!-- ---------------------------------------------------------------
+                 SUBSECTION A – Growth Through the Program
+                 PLACEHOLDER: Replace the paragraph text below with your written
+                 self-assessment content about your academic and professional growth.
+                 --------------------------------------------------------------- -->
+            <div class="assessment-block">
+              <h3 class="assessment-heading">
+                <span class="heading-accent">01.a</span>
+                Growth Through the Computer Science Program
+              </h3>
+              <p class="assessment-text">
+                Throughout my journey in the Computer Science program at Southern New Hampshire University, I have developed a strong foundation in both theoretical and practical aspects of computing. Early in the program, I focused on learning core programming concepts, problem-solving techniques, and understanding how software systems are structured. As I progressed, I gained hands-on experience building full-stack applications, working with databases, and applying software engineering principles to real-world problems. Courses such as data structures, software development lifecycle, and advanced programming played a significant role in shaping my ability to think critically and develop efficient, scalable solutions.
+              </p>
+              <p class="assessment-text">
+                Over time, I evolved from simply writing functional code to designing complete systems with performance, scalability, and usability in mind. My experience working on projects like BankerAI helped solidify my transition into a more advanced developer, capable of integrating frontend, backend, and data processing components into a cohesive application. This program has also helped shape my career goals, reinforcing my interest in full-stack development and data science, where I can build intelligent, data-driven systems that deliver real value.
+              </p>
+              <p class="assessment-text">
+                In addition to the BankerAI project, courses such as CS 260 (Data Structures and Algorithms) and CS 340 (Advanced Programming Concepts) played a significant role in developing my technical foundation. In CS 260, I strengthened my understanding of algorithm efficiency and problem-solving techniques, while CS 340 provided experience working with more advanced programming concepts and database interactions. These courses helped reinforce the skills I applied in my capstone project.
+              </p>
+            </div>
+
+            <!-- ---------------------------------------------------------------
+                 SUBSECTION B – Collaboration and Communication
+                 PLACEHOLDER: Replace the paragraph text below with your content
+                 about teamwork, communication, and professional interactions.
+                 --------------------------------------------------------------- -->
+            <div class="assessment-block">
+              <h3 class="assessment-heading">
+                <span class="heading-accent">01.b</span>
+                Collaboration and Communication
+              </h3>
+              <p class="assessment-text">
+                Throughout the program, I have strengthened my ability to communicate technical concepts clearly and effectively to different audiences. Whether working on assignments, participating in discussions, or documenting projects, I learned how to explain complex ideas in a structured and understandable way. This includes writing clean, well-documented code, creating organized project reports, and presenting technical solutions in a professional format.
+              </p>
+              <p class="assessment-text">
+                In addition, I developed an understanding of collaborative environments by engaging in peer discussions and reviewing code. These experiences helped me learn how to analyze existing systems, provide constructive feedback, and understand different approaches to solving problems. My code review process, demonstrated through my earlier project, reflects my ability to evaluate functionality, identify inefficiencies, and propose meaningful improvements. These skills are essential for working in real-world software development teams, where clear communication and collaboration directly impact project success.
+              </p>
+            </div>
+
+            <!-- ---------------------------------------------------------------
+                 SUBSECTION C – Technical Competencies
+                 PLACEHOLDER: Replace the paragraph text below with your content
+                 about software engineering, algorithms, databases, and security.
+                 --------------------------------------------------------------- -->
+            <div class="assessment-block">
+              <h3 class="assessment-heading">
+                <span class="heading-accent">01.c</span>
+                Software Engineering, Algorithms, Databases, and Security
+              </h3>
+              <p class="assessment-text">
+                Throughout the program, I have developed strong technical skills across software engineering, algorithms, databases, and security. I gained experience designing and building applications using structured development practices, including modular design, clean code organization, and iterative improvement. My understanding of algorithms has improved through implementing efficient logic, optimizing performance, and applying problem-solving strategies to real-world datasets.
+              </p>
+              <p class="assessment-text">
+                The BankerAI project demonstrates my ability to integrate these skills into a full-stack system. From a software engineering perspective, I improved the application's structure, user interface, and overall performance. In terms of algorithms, I optimized data processing and implemented efficient logic to handle structured data. On the database side, I utilized MongoDB and implemented advanced queries and aggregation pipelines to extract meaningful insights from data. I also incorporated a security mindset by considering input validation, data handling practices, and system reliability during development. These considerations ensure that applications are not only functional but also resilient and secure, which is critical in modern software systems.
+              </p>
+              <p class="assessment-text">
+                I also gained experience in software testing and quality assurance through CS 320, where I learned the importance of writing test cases and ensuring application reliability. This knowledge influenced how I approached improving system performance and stability in my projects.
+              </p>
+            </div>
+
+            <!-- ---------------------------------------------------------------
+                 SUBSECTION D – How the Artifacts Fit Together
+                 PLACEHOLDER: Replace the paragraph text below with your content
+                 explaining how the three artifacts form a cohesive portfolio.
+                 --------------------------------------------------------------- -->
+            <div class="assessment-block">
+              <h3 class="assessment-heading">
+                <span class="heading-accent">01.d</span>
+                How My Artifacts Fit Together
+              </h3>
+              <p class="assessment-text">
+                The artifacts included in my ePortfolio represent a cohesive demonstration of my growth and capabilities across key areas of computer science. The BankerAI project serves as the central artifact that ties together software design and engineering, algorithms and data structures, and database management. Each enhancement made to the project highlights a different aspect of my skill set while contributing to a unified system.
+              </p>
+              <p class="assessment-text">
+                The software engineering enhancements improved the overall structure, usability, and performance of the application. The algorithms and data structures enhancements focused on optimizing efficiency and improving how data is processed. The database enhancements demonstrate my ability to work with real-world data using MongoDB, including advanced querying and aggregation techniques.
+              </p>
+              <p class="assessment-text">
+                Together, these artifacts align with the core program outcomes by showcasing my ability to design and evaluate computing solutions, communicate technical ideas effectively, apply innovative tools and techniques, and consider security in system design. This portfolio not only reflects my academic progress but also serves as a professional representation of my readiness to contribute to the field of computer science.
+              </p>
+            </div>
+
+          </div><!-- /.assessment-body -->
+        </div><!-- /.container -->
+      </section>
+
+      <!-- ==================================================================
+           SECTION 3 – CODE REVIEW
+           ================================================================== -->
+      <section class="section section-alt" id="code-review">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">02</span>
+            <h2 class="section-title">Code Review</h2>
+            <p class="section-subtitle">
+              A walkthrough of existing code, identifying areas for improvement
+              before applying enhancements.
+            </p>
+          </div>
+
+          <div class="code-review-body">
+            <p class="body-text">
+              The code review below was completed on a previous project called
+              <strong>Bron</strong>. During the review, I analyzed the existing
+              codebase for areas of improvement across software design, algorithmic
+              efficiency, and data management. The same analytical mindset,
+              structured evaluation process, and enhancement strategy were later
+              carried forward and applied directly to my <strong>BankerAI</strong>
+              capstone project, ensuring consistency between the review process and
+              the final deliverables.
+            </p>
+
+            <!-- ---------------------------------------------------------------
+                 VIDEO EMBED AREA
+                 PLACEHOLDER: To embed your YouTube code review video, replace the
+                 placeholder box below with the iframe provided.
+
+                 Example iframe (uncomment and replace YOUR_VIDEO_ID):
+
+                 <iframe
+                   class="video-embed"
+                   src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                   title="CS 499 Code Review – Kester Nkese"
+                   frameborder="0"
+                   allow="accelerometer; autoplay; clipboard-write;
+                          encrypted-media; gyroscope; picture-in-picture"
+                   allowfullscreen
+                 ></iframe>
+
+                 Delete the .video-placeholder div below once you add the iframe.
+                 --------------------------------------------------------------- -->
+            <div class="video-wrapper">
+              <video
+                class="video-embed"
+                controls
+                preload="metadata"
+                aria-label="CS 499 Code Review – Kester Nkese"
+              >
+                <source src="2026-03-13 22-12-25.mp4" type="video/mp4" />
+                Your browser does not support the HTML5 video element.
+              </video>
+            </div>
+
+          </div><!-- /.code-review-body -->
+        </div><!-- /.container -->
+      </section>
+
+      <!-- ==================================================================
+           SECTION 4 – ARTIFACTS / PROJECT ENHANCEMENTS
+           ================================================================== -->
+      <section class="section" id="artifacts">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">03</span>
+            <h2 class="section-title">Artifacts and Enhancements</h2>
+            <p class="section-subtitle">
+              Three categories of enhancement applied to the <strong>BankerAI</strong>
+              capstone project, demonstrating growth across core computer science
+              competencies.
+            </p>
+          </div>
+
+          <div class="artifacts-grid">
+
+            <!-- ==============================================================
+                 ARTIFACT CARD 1 – SOFTWARE DESIGN AND ENGINEERING
+                 ============================================================== -->
+            <article class="artifact-card" id="artifact-sde">
+              <div class="artifact-card-header">
+                <span class="artifact-number">01</span>
+                <h3 class="artifact-title">Software Design and Engineering</h3>
+              </div>
+
+              <div class="artifact-detail">
+                <p class="artifact-label">Artifact Used</p>
+                <p class="artifact-value">BankerAI Dashboard Project</p>
+              </div>
+
+              <div class="artifact-enhancements">
+                <div class="enhancement-item enhancement-initial">
+                  <span class="enhancement-badge">Initial Enhancement</span>
+                  <p>Completed UI and system structure improvements</p>
+                </div>
+                <div class="enhancement-item enhancement-final">
+                  <span class="enhancement-badge">Final Enhancement</span>
+                  <p>Completed performance optimization and deployment improvements</p>
+                </div>
+              </div>
+
+              <!-- ---------------------------------------------------------------
+                   PLACEHOLDER: Replace the text in each detail block below with
+                   your actual artifact content.
+                   --------------------------------------------------------------- -->
+              <div class="artifact-details-grid">
+                <div class="detail-block">
+                  <p class="detail-label">Narrative Summary</p>
+                  <p class="detail-text">
+                    The BankerAI Dashboard Project was selected to demonstrate my ability to design and improve a full-stack application. In its original form, the application had a basic user interface and limited structure. Through enhancements, I improved the overall UI/UX, reorganized the project structure, and optimized performance. These changes resulted in a more scalable and maintainable system. This enhancement demonstrates my ability to apply software engineering principles such as modular design, clean architecture, and iterative improvement.
+                  </p>
+                </div>
+                <div class="detail-block">
+                  <p class="detail-label">Skills Demonstrated</p>
+                  <p class="detail-text">
+                    UI/UX design, modular architecture, API integration, code refactoring, performance optimization, full-stack development
+                  </p>
+                </div>
+                <div class="detail-block">
+                  <p class="detail-label">Outcome Alignment</p>
+                  <p class="detail-text">
+                    This artifact demonstrates my ability to design and evaluate computing solutions, apply industry-standard software engineering practices, and communicate technical improvements effectively.
+                  </p>
+                </div>
+              </div>
+
+              <div class="artifact-actions">
+                <a href="https://github.com/AltUser44/banker-ai/compare/main...banker-ai-original" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View original Software Design artifact">
+                  View Original Artifact
+                </a>
+                <a href="https://github.com/AltUser44/banker-ai/compare/main...banker-ai-enhanced" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View enhanced Software Design artifact">
+                  View Enhanced Artifact
+                </a>
+                <a href="software-engineering-narrative1 (1).pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary" aria-label="View Software Design narrative">
+                  View Narrative
+                </a>
+              </div>
+            </article>
+
+            <!-- ==============================================================
+                 ARTIFACT CARD 2 – ALGORITHMS AND DATA STRUCTURES
+                 ============================================================== -->
+            <article class="artifact-card" id="artifact-algo">
+              <div class="artifact-card-header">
+                <span class="artifact-number">02</span>
+                <h3 class="artifact-title">Algorithms and Data Structures</h3>
+              </div>
+
+              <div class="artifact-detail">
+                <p class="artifact-label">Artifact Used</p>
+                <p class="artifact-value">BankerAI Algorithm Enhancements</p>
+              </div>
+
+              <div class="artifact-enhancements">
+                <div class="enhancement-item enhancement-initial">
+                  <span class="enhancement-badge">Initial Enhancement</span>
+                  <p>Completed core algorithm implementations</p>
+                </div>
+                <div class="enhancement-item enhancement-final">
+                  <span class="enhancement-badge">Final Enhancement</span>
+                  <p>Completed optimization and efficiency improvements</p>
+                </div>
+              </div>
+
+              <div class="artifact-details-grid">
+                <div class="detail-block">
+                  <p class="detail-label">Narrative Summary</p>
+                  <p class="detail-text">
+                    For this enhancement, I focused on improving the efficiency of data processing within the BankerAI application. The original implementation used basic logic with minimal optimization. I enhanced the system by refining data handling processes and improving algorithm efficiency. These improvements reduced processing time and increased the responsiveness of the application. This demonstrates my understanding of algorithmic thinking and performance optimization.
+                  </p>
+                </div>
+                <div class="detail-block">
+                  <p class="detail-label">Skills Demonstrated</p>
+                  <p class="detail-text">
+                    Algorithm optimization, data processing, time complexity awareness, efficient data handling, logical problem-solving
+                  </p>
+                </div>
+                <div class="detail-block">
+                  <p class="detail-label">Outcome Alignment</p>
+                  <p class="detail-text">
+                    This artifact demonstrates my ability to apply algorithmic principles to solve problems efficiently and evaluate trade-offs in design decisions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="artifact-actions">
+                <a href="https://github.com/AltUser44/banker-ai/compare/main...banker-ai-original" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View original Algorithms artifact">
+                  View Original Artifact
+                </a>
+                <a href="https://github.com/AltUser44/banker-ai/compare/main...banker-ai-enhanced" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View enhanced Algorithms artifact">
+                  View Enhanced Artifact
+                </a>
+                <a href="algorithms-narrative1.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary" aria-label="View Algorithms narrative">
+                  View Narrative
+                </a>
+              </div>
+            </article>
+
+            <!-- ==============================================================
+                 ARTIFACT CARD 3 – DATABASES
+                 ============================================================== -->
+            <article class="artifact-card" id="artifact-db">
+              <div class="artifact-card-header">
+                <span class="artifact-number">03</span>
+                <h3 class="artifact-title">Databases</h3>
+              </div>
+
+              <div class="artifact-detail">
+                <p class="artifact-label">Artifact Used</p>
+                <p class="artifact-value">
+                  BankerAI Database Integration (Containerized Backend Services)
+                </p>
+              </div>
+
+              <div class="artifact-enhancements">
+                <div class="enhancement-item enhancement-initial">
+                  <span class="enhancement-badge">Initial Enhancement</span>
+                  <p>Completed basic data handling and backend service setup within a containerized environment</p>
+                </div>
+                <div class="enhancement-item enhancement-final">
+                  <span class="enhancement-badge">Final Enhancement</span>
+                  <p>Improved data processing, backend integration, and system reliability using Docker-based architecture</p>
+                </div>
+              </div>
+
+              <div class="artifact-details-grid">
+                <div class="detail-block">
+                  <p class="detail-label">Narrative Summary</p>
+                  <p class="detail-text">
+                    The database enhancement focused on improving how data is managed, processed, and accessed within the BankerAI project. Initially, the application relied on basic data handling with limited structure and minimal optimization. Data flow between components was functional but not fully optimized for scalability or performance.
+                  </p>
+                  <p class="detail-text">
+                    In the enhanced version, I improved how data is processed and managed within a containerized environment using Docker. This included refining backend service communication, organizing data flow between components, and improving consistency in how data is handled across the system. These improvements allowed the application to operate more reliably and efficiently while supporting scalable data processing.
+                  </p>
+                </div>
+                <div class="detail-block">
+                  <p class="detail-label">Skills Demonstrated</p>
+                  <p class="detail-text">
+                    Backend data handling, system integration, containerization with Docker, service orchestration, data flow optimization, full-stack architecture design, system reliability, deployment configuration
+                  </p>
+                </div>
+                <div class="detail-block">
+                  <p class="detail-label">Outcome Alignment</p>
+                  <p class="detail-text">
+                    This artifact aligns with multiple CS 499 course outcomes by demonstrating my ability to design and improve computing solutions that manage and process data effectively. It highlights my use of modern development tools, such as Docker, to create scalable and reliable systems. Additionally, this enhancement reflects my understanding of system reliability, structured data handling, and secure application design. These improvements contribute to building robust applications capable of handling real-world data and operational demands.
+                  </p>
+                </div>
+              </div>
+
+              <div class="artifact-actions">
+                <a href="https://github.com/AltUser44/banker-ai/compare/main...banker-ai-original" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View original Databases artifact">
+                  View Original Artifact
+                </a>
+                <a href="https://github.com/AltUser44/banker-ai/compare/main...banker-ai-enhanced" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View enhanced Databases artifact">
+                  View Enhanced Artifact
+                </a>
+                <a href="databases-narrative.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary" aria-label="View Databases narrative">
+                  View Narrative
+                </a>
+              </div>
+            </article>
+
+          </div><!-- /.artifacts-grid -->
+        </div><!-- /.container -->
+      </section>
+
+      <!-- ==================================================================
+           SECTION 5 – COURSE OUTCOMES
+           ================================================================== -->
+      <section class="section section-alt" id="outcomes">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">04</span>
+            <h2 class="section-title">Course Outcomes</h2>
+            <p class="section-subtitle">
+              Five program outcomes addressed through the artifacts and enhancements
+              in this portfolio.
+            </p>
+          </div>
+
+          <div class="outcomes-grid">
+
+            <!-- OUTCOME 1 -->
+            <div class="outcome-card" data-outcome="1">
+              <div class="outcome-icon" aria-hidden="true">&#x2726;</div>
+              <h3 class="outcome-title">Collaborative Environments</h3>
+              <p class="outcome-desc">
+                I demonstrated collaboration skills through structured code organization, version control practices, and clear documentation within my projects. My code review process and iterative improvements reflect how I can analyze existing systems, provide feedback, and improve functionality. These practices simulate real-world team environments where communication, readability, and maintainability are essential for collaboration.
+              </p>
+            </div>
+
+            <!-- OUTCOME 2 -->
+            <div class="outcome-card" data-outcome="2">
+              <div class="outcome-icon" aria-hidden="true">&#x2726;</div>
+              <h3 class="outcome-title">Professional Communication</h3>
+              <p class="outcome-desc">
+                I demonstrated professional communication through well-structured narratives, clear code documentation, and my code review video. I focused on explaining technical concepts in a way that is understandable to both technical and non-technical audiences. My ePortfolio presents my work in a clear, organized format, reflecting my ability to communicate ideas effectively and professionally.
+              </p>
+            </div>
+
+            <!-- OUTCOME 3 -->
+            <div class="outcome-card" data-outcome="3">
+              <div class="outcome-icon" aria-hidden="true">&#x2726;</div>
+              <h3 class="outcome-title">Algorithmic Problem Solving</h3>
+              <p class="outcome-desc">
+                I demonstrated algorithmic problem-solving by improving data processing logic within the BankerAI project. I optimized how data is handled by reducing inefficiencies, implementing structured logic, and introducing sorting and filtering techniques. These improvements enhanced performance and demonstrate my ability to evaluate trade-offs between simplicity and efficiency when designing solutions.
+              </p>
+            </div>
+
+            <!-- OUTCOME 4 -->
+            <div class="outcome-card" data-outcome="4">
+              <div class="outcome-icon" aria-hidden="true">&#x2726;</div>
+              <h3 class="outcome-title">Innovative Computing Practices</h3>
+              <p class="outcome-desc">
+                I applied innovative computing practices by using modern tools and technologies such as Docker for containerization and full-stack development techniques. These tools allowed me to create a scalable and reliable application environment. My enhancements reflect industry-standard practices in system design, deployment, and application architecture.
+              </p>
+            </div>
+
+            <!-- OUTCOME 5 -->
+            <div class="outcome-card" data-outcome="5">
+              <div class="outcome-icon" aria-hidden="true">&#x2726;</div>
+              <h3 class="outcome-title">Security Mindset</h3>
+              <p class="outcome-desc">
+                I demonstrated a security mindset by considering input validation, data handling, and system reliability throughout my project enhancements. I ensured that data is processed safely and that the system structure supports stable and secure operation. These considerations reflect my awareness of potential vulnerabilities and my ability to design systems with security and reliability in mind.
+              </p>
+            </div>
+
+          </div><!-- /.outcomes-grid -->
+        </div><!-- /.container -->
+      </section>
+
+      <!-- ==================================================================
+           SECTION 6 – CONTACT / LINKS
+           ================================================================== -->
+      <section class="section" id="links">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">05</span>
+            <h2 class="section-title">Links</h2>
+            <p class="section-subtitle">
+              Find my work, connect professionally, or review supporting materials.
+            </p>
+          </div>
+
+          <div class="links-grid links-grid--single">
+
+            <a href="https://github.com/AltUser44/banker-ai" target="_blank" rel="noopener" class="link-card" aria-label="GitHub Repository – BankerAI">
+              <div class="link-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.09.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.34-3.369-1.34-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.58 9.58 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.338-.012 2.416-.012 2.744 0 .267.18.577.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                </svg>
+              </div>
+              <div class="link-card-text">
+                <p class="link-card-title">GitHub Repository</p>
+                <p class="link-card-url">github.com/AltUser44/banker-ai</p>
+              </div>
+            </a>
+
+          </div><!-- /.links-grid -->
+        </div><!-- /.container -->
+      </section>
+
+    </main><!-- /main -->
+
+    <!-- =====================================================================
+         FOOTER
+         ===================================================================== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="footer-name">Kester Nkese</p>
+        <p class="footer-tagline">Computer Science ePortfolio</p>
+        <p class="footer-copy">&copy; <span id="footerYear"></span> All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Back-to-top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Scroll back to top" title="Back to top">
+      &#8679;
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
